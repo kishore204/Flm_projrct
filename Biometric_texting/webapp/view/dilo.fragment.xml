@@ -27,9 +27,9 @@
 				<Input id="Street" >
 				</Input>
 			
-				<!--<Label text="City" />-->
+				<Label text="City" />
 			
-				<!--<Input id="City" change = "Name"  />-->
+				<Input id="City" change = "Name"  />
 				<Label text="Gender" />
 				<Select width="100%" id = 'gen'>
 					<items>
