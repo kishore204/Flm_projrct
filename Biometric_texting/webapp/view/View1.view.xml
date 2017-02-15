@@ -1,0 +1,60 @@
+<mvc:View controllerName="Biometric_texting.controller.View1" xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="Biometric Testing">
+				<content>
+				<VBox class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormChange354"
+			minWidth="1024"
+			maxContainerCols="2"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			title="Address"
+			labelSpanL="3"
+			labelSpanM="3"
+			emptySpanL="4"
+			emptySpanM="4"
+			columnsL="1"
+			columnsM="1"
+			class="editableForm">
+			<f:content>
+				<Label text = "Aadhaar Number"></Label>
+					<Input id ="input" valueStateText = "Enter 12 Digit Aadhaar Number"   change =  'sample' ></Input>
+			</f:content>
+		</f:SimpleForm>
+	</VBox>
+					
+					
+					
+					
+					
+					
+				<VBox>
+						<Image width="150px" height="200px" class = "img" id="__image111"  decorative="false" densityAware="false" visible = "true"/>
+							<Button type="Accept" class = "but" text = 'Get User data' ></Button>
+					
+				</VBox>	
+					
+					
+					<!--<HBox justifyContent="SpaceBetween" alignItems="Center" width = "40%">	<Label text = "Aadhaar Number"></Label>-->
+					<!--<Input width = "500px" change =  'sample'></Input></HBox>-->
+				
+				
+	
+
+				</content>
+					<!--<footer>-->
+					<!--	<Toolbar>-->
+					<!--				<ToolbarSpacer/>-->
+					
+					<!--	<Button type="Emphasized" text = 'Click Here To Register' press = 'dilop'></Button>-->
+							
+					<!--	</Toolbar>-->
+					<!--	</footer>-->
+					
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
